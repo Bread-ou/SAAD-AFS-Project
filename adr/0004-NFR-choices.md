@@ -20,7 +20,8 @@ In developing a software application, numerous non-functional requirements (NFRs
 * Accessibility
 * Scalability
 * Compliance
-* Usability
+* Data Integrity
+* Efficiency 
 
 ## Decision
 
@@ -31,11 +32,13 @@ Given that the application is designed to cater to a vast number of users global
 * Internationalization
 * Scalability
 * Availability
-* 
+* Usability
+* Accessibility
+
 The emphasis here leans towards expanding reach, ensuring broad applicability, and scalability, rather than concentrating on performance or catering to a specialized user base.
 
 ## Consequences
 
-* **Interactive Prototyping:**  Figma's capabilities for creating interactive prototypes support a more dynamic representation of the user interface, allowing for better visualization of the deliverables set out by the project.
-* **Learning Curve:**  Given my lack of prior experience with Figma, an extended learning phase is required to produce high-quality prototypes.
-* **Version Control and History:** As Figma offers version control and iteration tracking, it allows for previous designs to be revisited and iterated if necessary.
+* **Wider Accessibility and Market Reach:** Prioritizing internationalization, compliance, and availability allows for the system to be more accessible to users in different regions and time zones, potentially increasing its market reach. However, this requires additional resources to support multiple languages, cultures, and regional standards.
+* **Enhanced Security and Trust:**  The focus on security will help protect user data and prevent breaches, fostering trust among users. Given that the application will manage highly sensitive user data, including passports and national IDs, establishing and maintaining trust is essential for the software's success.
+* **Performance Loss:** Given the aforementioned NFRs selected for this project, the system will suffer in other areas. Maximizing the security, accessibility, and usability of the application will impede the system's performance.
