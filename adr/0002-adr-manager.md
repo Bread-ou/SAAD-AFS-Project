@@ -1,4 +1,4 @@
-# 1. Using GitHub as the ADR manager
+# 2. Using GitHub as the ADR manager
 
 Date: 31-10-2023
 
