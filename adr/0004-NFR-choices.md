@@ -1,6 +1,6 @@
-# 1. Using Figma as the prototyping tool
+# 4. Choosing Which Non-Functional Requirments to Pursue 
 
-Date: 01-11-2023
+Date: 02-12-2023
 
 ## Status
 
@@ -8,10 +8,7 @@ Accepted
 
 ## Context
 
-For prototyping and design purposes in the ongoing project, various tools are available to support the creation and visualization of interface designs. Some options include:
-* **Protopie:** A tool specializing in the creation of high-fidelity interactions and animations for mobile and web interfaces.
-* **Figma:** A cloud-based design tool that allows collaborative prototyping, wireframing, and interface design. 
-* **Adobe XD:** is a vector design tool for web and mobile applications with an extensive feature set, which allows for designing and prototyping user interfaces. 
+There are 
 
 ## Decision
 
