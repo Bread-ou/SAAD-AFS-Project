@@ -1,4 +1,4 @@
-# 4. Choosing Which Non-Functional Requirments to Pursue 
+# 4. Choosing Which Non-Functional Requirments (NFRs) to Pursue 
 
 Date: 02-12-2023
 
@@ -8,11 +8,31 @@ Accepted
 
 ## Context
 
-There are 
+In developing a software application, numerous non-functional requirements (NFRs) can be considered. However, meeting these NFRs demands significant resources, and sometimes, certain NFRs may conflict with each other. Therefore, it is best to prioritize a select few NFRs, which helps provide a clear focus on what is most integral to the software's overall goal.
+
+**NFRs include but are not limited to:**
+* Performance
+* Capacity
+* Availability
+* Security
+* Manageability
+* Usability
+* Accessibility
+* Scalability
+* Compliance
+* Usability
 
 ## Decision
 
-Figma will be the primary prototyping tool utilized for the project, as it provides an efficient and user-friendly environment for designing and visualizing interface concepts.
+Given that the application is designed to cater to a vast number of users globally, the key non-functional requirements (NFRs) to prioritize are:
+
+* Security
+* Compliance
+* Internationalization
+* Scalability
+* Availability
+* 
+The emphasis here leans towards expanding reach, ensuring broad applicability, and scalability, rather than concentrating on performance or catering to a specialized user base.
 
 ## Consequences
 
