@@ -1,4 +1,4 @@
-# 1. Using Figma as the prototyping tool
+# 3. Using Figma as the prototyping tool
 
 Date: 01-11-2023
 
