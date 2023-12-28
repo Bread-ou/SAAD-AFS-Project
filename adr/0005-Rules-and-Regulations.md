@@ -1,6 +1,6 @@
-# 4. Choosing Which Arcgutectural Style to Follow
+# 5. Choosing to Externalize The Rules and Regulations Gathering Functionality  
 
-Date: 08-12-2023
+Date: 10-12-2023
 
 ## Status
 
@@ -8,37 +8,22 @@ Accepted
 
 ## Context
 
-In developing a software application, numerous non-functional requirements (NFRs) can be considered. However, meeting these NFRs demands significant resources, and sometimes, certain NFRs may conflict with each other. Therefore, it is best to prioritize a select few NFRs, which helps provide a clear focus on what is most integral to the software's overall goal.
-
-**NFRs include but are not limited to:**
-* Performance
-* Capacity
-* Availability
-* Security
-* Manageability
-* Usability
-* Accessibility
-* Scalability
-* Compliance
-* Data Integrity
-* Efficiency 
+While developing the C4 system context diagram and analyzing project requirements, a critical issue emerged. The system displays travel guidelines for various countries, but these guidelines frequently change. To maintain accuracy, the system must incorporate a mechanism for updating these rules. This necessitates either integrating a component within the system to manage updates or considering the exclusion of this feature from the system's scope due to its dynamic nature.
 
 ## Decision
 
-Given that the application is designed to cater to a vast number of users globally, the key non-functional requirements (NFRs) to prioritize are:
+Given that displaying the rules is the required functionality and not the mechanism to update rules, this functionality has been excluded and is treated as an external system. This is shown in the system context diagram.
 
-* Security
-* Compliance
-* Internationalization
-* Scalability
-* Availability
-* Usability
-* Accessibility
-
-The emphasis here leans towards expanding reach, ensuring broad applicability, and scalability, rather than concentrating on performance or catering to a specialized user base.
 
 ## Consequences
 
-* **Wider Accessibility and Market Reach:** Prioritizing internationalization, compliance, and availability allows for the system to be more accessible to users in different regions and time zones, potentially increasing its market reach. However, this requires additional resources to support multiple languages, cultures, and regional standards.
-* **Enhanced Security and Trust:**  The focus on security will help protect user data and prevent breaches, fostering trust among users. Given that the application will manage highly sensitive user data, including passports and national IDs, establishing and maintaining trust is essential for the software's success.
-* **Performance Loss:** Given the aforementioned NFRs selected for this project, the system will suffer in other areas. Maximizing the security, accessibility, and usability of the application will impede the system's performance.
+* **Simplifying Architecture:** The architecture of the system will be simpler as the functionality is outsourced, allowing for resources to be allocated elsewhere.
+* **Reliability of Information:** The system will be reliant on an external source for accurate and up-to-date travel information. As a result, the system will lack control over the accuracy and availability of this information.
+* **Dependency:** The system is completely  dependent on the external source for travel and visa information. Therefore, the system is unable to provide the information required in the event the external source fails.
+
+
+
+
+
+
+
