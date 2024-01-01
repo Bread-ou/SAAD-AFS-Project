@@ -23,10 +23,6 @@ accent should help with distinguishing between the different artefacts.
 
 ## Consequences
 
-* **Simplifying Architecture:** The architecture of the system will be simpler as the functionality is outsourced, allowing for resources to be allocated elsewhere.
-* **Reliability of Information:** The system will be reliant on an external source for accurate and up-to-date travel information. As a result, the system will lack control over the accuracy and availability of this information.
-* **Dependency:** The system is completely  dependent on the external source for travel and visa information. Therefore, the system is unable to provide the information required in the event the external source fails.
-
 ## References 
 * https://www.colourblindawareness.org/colour-blindness/
 * https://www.tableau.com/en-gb/blog/examining-data-viz-rules-dont-use-red-green-together#:~:text=For%20example%2C%20blue%2Forange%20is,palette%20designed%20by%20Maureen%20Stone.
