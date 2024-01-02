@@ -8,8 +8,8 @@ Accepted
 
 ## Context
 
-When developing a software system, it is imperative to select an architectural style suitable for the solution.Software Architecture dictates the high-level organization of the system's components and how they interact with one anotherr.  Software architecture is needed to build a solid foundation for the application, 
-and it ensures that the application meets its functional and non-functional requirements and needs for both users and stakeholders (1). With 
+When developing a software system, it is imperative to select an architectural style suitable for the solution. Software Architecture dictates the high-level organization of the system's components and how they interact with one another.  Software architecture is needed to build a solid foundation for the application, 
+and it ensures that the application meets its functional and non-functional requirements and needs for both users and stakeholders (1). With the help of XSron Hou's article on Software architectural styles; we have identified and defined some styles to choose from below:
 
 ## Decision
 
