@@ -8,7 +8,7 @@ Accepted
 
 ## Context
 
-The AFS system req
+The AFS system requires users to sign-in to access the
 
 ## Decision
 
