@@ -8,29 +8,27 @@ Accepted
 
 ## Context
 
-When developing a software system, it is imperative to select an architectural style suitable for the solution. Software Architecture dictates the high-level organization of the system's components and how they interact with one another.  Software architecture is needed to build a solid foundation for the application, 
-and it ensures that the application meets its functional and non-functional requirements and needs for both users and stakeholders (1). With the help of XSron Hou's article on Software architectural styles; we have identified and defined some styles to choose from below:
+When developing a software system, it is imperative to select an architectural style suitable for the solution. 
+The establishment of a software architecture is crucial, as it forms the fundamental structure of an application (Hou, 2023). 
+It outlines the system's component organization and their interactions, ensuring that both functional and non-functional requirements are met. 
+A strong architectural foundation is vital for satisfying the needs of users and stakeholders. 
+Inspired by insights from XSron Hou's discourse on architectural paradigms, we have identified various architectural styles to consider for our application:
+
+* **Monolithic:** A way of structuring an application as a single, cohesive unit, rather than splitting it up into smaller components.
+* **Microservice:** Structures the application as a collection of small, independent services that communicate with each other over a network.
+* **Event Driven:** a style focused on communication between components or services. In this paradigm, different software components communicate with each other using events, rather than through direct requests or responses.
+* **SOA:** A structure aimed at modularising components, allowing for reusability and scalability. Allows for the building of specific pieces of functionality and then combining them to create a larger system.
 
 ## Decision
 
-Given that the application is designed to cater to a vast number of users globally, the key non-functional requirements (NFRs) to prioritize are:
-
-* Security
-* Compliance
-* Internationalization
-* Scalability
-* Availability
-* Usability
-* Accessibility
-
-The emphasis here leans towards expanding reach, ensuring broad applicability, and scalability, rather than concentrating on performance or catering to a specialized user base.
+SOA was selected for its modular nature, enhancing application security and reusability. For instance, the visa application component will only need to be accessed by Visa Officers and Applicants.
+The visa application component has a dedicated database to limit the scope of data each service can access, which will enhance security. The splitting of components and limiting of scope align well
+with the principles of SOA, where services are loosely coupled and highly cohesive, allowing for independent scaling and optimization according to the specific requirements of each component.
 
 ## Consequences
 
-* **Wider Accessibility and Market Reach:** Prioritizing internationalization, compliance, and availability allows for the system to be more accessible to users in different regions and time zones, potentially increasing its market reach. However, this requires additional resources to support multiple languages, cultures, and regional standards.
-* **Enhanced Security and Trust:**  The focus on security will help protect user data and prevent breaches, fostering trust among users. Given that the application will manage highly sensitive user data, including passports and national IDs, establishing and maintaining trust is essential for the software's success.
-* **Performance Loss:** Given the aforementioned NFRs selected for this project, the system will suffer in other areas. Maximizing the security, accessibility, and usability of the application will impede the system's performance.
+
 
 ## References 
 
-*
+* Hou, Xs. (2023, August 30). 12 software architecture Styles Software Engineer should know. Medium. https://medium.com/@xsronhou/12-software-architecture-styles-software-engineer-should-know-ee92e3b1f9ac 
