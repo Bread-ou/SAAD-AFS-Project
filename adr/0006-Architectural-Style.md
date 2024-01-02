@@ -27,7 +27,9 @@ with the principles of SOA, where services are loosely coupled and highly cohesi
 
 ## Consequences
 
-
+* **Modularity:** SOA modularity allows for flexibility and agility when adapting new technologies and integrating them within the system.
+* **System Resilience:** Errors occurring in the system will be localized to the specific component that's faulty instead of the entire solution; this strengthens the resilience of the system. 
+* **Adding Complexity:** The modularized components will require a comprehensive network of communication to allow for the system to function as a unit, which will add complexity to the solution.
 
 ## References 
 
