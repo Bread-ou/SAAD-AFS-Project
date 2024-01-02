@@ -1,4 +1,4 @@
-# 6. Adopting SOA/Service-Based Architecture 
+# 7. Adopting SOA/Service-Based Architecture 
 
 Date: 18-12-2023
 
